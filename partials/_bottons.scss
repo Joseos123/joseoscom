@@ -1,0 +1,18 @@
+.buttonbox {
+    height: 33%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    place-items: center;
+    background-color: transparent;
+}
+
+span {
+    font-size: 3em; 
+    color: white;
+    background-color: transparent;
+}
+
+/** note to self: i need to change the weird buttons im using rn to bootstrap buttons,
+preferably the weird transparent ones in project-prop. gl! **/
