@@ -1,17 +1,18 @@
 @media only screen and (max-width: 800px) {
     body {
       background-image: url(pp-mobile.jpg);
-      padding-left: 7.5vw;
+      padding-left: 0vw;
+      padding-right: 0vw;
       padding-top: 0vw;
     } .a {
       padding-top: 0%;
       padding-left: 0%;
-      padding-right: 15%;
+      padding-right: 1%;
       width: 100vw;
       place-self: center center;
       align-content: center center;
-    }  .d, .e {
-      display: none;
+    } .d, .e {
+      display: none !important;
     } .f {
       place-self: center center;
 
@@ -23,18 +24,18 @@
         align-content: center center;
     } .col {
       flex: 1;
-      padding-top: 7rem;
-      padding-right: 0.95rem;
-      padding-left: 0.95rem;
+      padding-top: 1rem;
+      padding-right: 0.7rem;
+      padding-left: 0.7rem;
   } .colspecial {
       flex: 1;
-      padding-top: 7rem;
-      padding-right: 0.95rem;
-      padding-left: 0rem;
+      padding-top: 1rem;
+      padding-right: 0.7rem;
+      padding-left: 0.7rem;
   } .colspeciall {
       flex: 1;
-      padding-top: 7rem;
-      padding-right: 8rem;
-      padding-left: 0.95rem;
+      padding-top: 1rem;
+      padding-right: 5rem;
+      padding-left: 0.7rem;
   }
       }
