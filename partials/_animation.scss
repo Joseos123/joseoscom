@@ -1,0 +1,14 @@
+#PRUH {
+	stroke-dasharray: 6062.55126953125;
+	stroke-dashoffset: 6062.55126953125;
+	animation: sign 4s ease;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	stroke-width: 40;
+}
+
+@keyframes sign {
+	to {
+		stroke-dashoffset: 0;
+	}
+}

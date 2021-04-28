@@ -1,0 +1,30 @@
+#PRUH {
+  stroke-dasharray: 6062.5512695313;
+  stroke-dashoffset: 6062.5512695313;
+  animation: sign 4s ease;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  stroke-width: 40;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+body {
+  background-image: url(pp.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(pp-mobile.jpg);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
