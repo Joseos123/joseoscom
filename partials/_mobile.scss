@@ -13,9 +13,12 @@
       display: none;
     } .f {
       place-self: center center;
-      
+
       align-content: center center;
     } #fortnut {
         width: 84vw;
+    } .buttonbox {
+        place-items: center center;
+        align-content: center center;
     }
       }
