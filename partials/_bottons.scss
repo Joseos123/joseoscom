@@ -1,8 +1,5 @@
 .buttonbox {
-    height: 33%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
     width: 100%;
     place-items: center;
     background-color: transparent;
@@ -12,4 +9,12 @@ span {
     font-size: 3em; 
     color: white;
     background-color: transparent;
+}
+
+button {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;
+    outline:none;
 }

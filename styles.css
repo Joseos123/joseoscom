@@ -27,10 +27,7 @@ body {
   }
 }
 .buttonbox {
-  height: 33%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
   width: 100%;
   place-items: center;
   background-color: transparent;
@@ -42,8 +39,14 @@ span {
   background-color: transparent;
 }
 
-/** note to self: i need to change the weird buttons im using rn to bootstrap buttons,
-preferably the weird transparent ones in project-prop. gl! **/
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+}
+
 .DABABY {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -53,11 +56,17 @@ preferably the weird transparent ones in project-prop. gl! **/
 }
 
 .a {
-  place-self: center flex-end;
+  place-self: center center;
 }
 
 .f {
   place-self: center flex-start;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
