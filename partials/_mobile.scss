@@ -6,6 +6,7 @@
     } .a {
       padding-top: 0%;
       padding-left: 0%;
+      padding-right: 15%;
       width: 100vw;
       place-self: center center;
       align-content: center center;
@@ -20,5 +21,20 @@
     } .buttonbox {
         place-items: center center;
         align-content: center center;
-    }
+    } .col {
+      flex: 1;
+      padding-top: 7rem;
+      padding-right: 0.95rem;
+      padding-left: 0.95rem;
+  } .colspecial {
+      flex: 1;
+      padding-top: 7rem;
+      padding-right: 0.95rem;
+      padding-left: 0rem;
+  } .colspeciall {
+      flex: 1;
+      padding-top: 7rem;
+      padding-right: 8rem;
+      padding-left: 0.95rem;
+  }
       }
