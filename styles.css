@@ -1,4 +1,4 @@
-#PRUH {
+#gobrr {
   stroke-dasharray: 6062.5512695313;
   stroke-dashoffset: 6062.5512695313;
   animation: sign 4s ease;
@@ -25,6 +25,17 @@ body {
   body {
     background-image: url(pp-mobile.jpg);
   }
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.a {
+  place-self: center flex-end;
 }
 
 /*# sourceMappingURL=styles.css.map */
