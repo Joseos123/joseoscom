@@ -4,7 +4,15 @@
 	animation: sign 4s ease;
 	animation-fill-mode: forwards;
 	animation-delay: 1s;
-	stroke-width: 40;
+	stroke-width: 60;
+	align-self: center center;
+}
+
+#fortnut {
+	max-width: 90vw;
+	width: 26.595rem;
+	height: auto;
+	align-self: center center;
 }
 
 @keyframes sign {

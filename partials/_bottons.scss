@@ -1,12 +1,13 @@
 .buttonbox {
     display: flex;
     width: 100%;
-    place-items: center;
+    place-items: center center;
+    align-content: center center;
     background-color: transparent;
 }
 
 span {
-    font-size: 3em; 
+    font-size: 3.5rem; 
     color: white;
     background-color: transparent;
 }

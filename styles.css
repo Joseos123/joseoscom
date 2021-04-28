@@ -4,7 +4,15 @@
   animation: sign 4s ease;
   animation-fill-mode: forwards;
   animation-delay: 1s;
-  stroke-width: 40;
+  stroke-width: 60;
+  align-self: center center;
+}
+
+#fortnut {
+  max-width: 90vw;
+  width: 26.595rem;
+  height: auto;
+  align-self: center center;
 }
 
 @keyframes sign {
@@ -19,22 +27,20 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #000000;
+  padding-left: 2vw;
+  padding-top: 1vw;
 }
 
-@media only screen and (max-width: 767px) {
-  body {
-    background-image: url(pp-mobile.jpg);
-  }
-}
 .buttonbox {
   display: flex;
   width: 100%;
-  place-items: center;
+  place-items: center center;
+  align-content: center center;
   background-color: transparent;
 }
 
 span {
-  font-size: 3em;
+  font-size: 3.5rem;
   color: white;
   background-color: transparent;
 }
@@ -57,12 +63,43 @@ button {
 
 .a {
   place-self: center center;
+  padding-top: 4.5%;
+  padding-left: 4.5%;
+  align-self: center center;
 }
 
 .f {
   place-self: center flex-start;
 }
 
+@media only screen and (max-width: 800px) {
+  body {
+    background-image: url(pp-mobile.jpg);
+    padding-left: 7.5vw;
+    padding-top: 0vw;
+  }
+
+  .a {
+    padding-top: 0%;
+    padding-left: 0%;
+    width: 100vw;
+    place-self: center center;
+    align-content: center center;
+  }
+
+  .d, .e {
+    display: none;
+  }
+
+  .f {
+    place-self: center center;
+    align-content: center center;
+  }
+
+  #fortnut {
+    width: 84vw;
+  }
+}
 html, body {
   margin: 0;
   height: 100%;
