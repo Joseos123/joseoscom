@@ -20,16 +20,19 @@
     } #fortnut {
         width: 84vw;
     } .buttonbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         place-items: center center;
         align-content: center center;
         width: 100vw;
     } .col {
       flex: 1;
-      padding-top: 5rem;
-      margin-left: 0%;
-      margin-right: 0%;
-      padding-right: 4vw;
-      padding-left: 4.2vw;
+      padding-top: 0%;
+      margin-left: 0vw;
+      margin-right: 0vw;
+      padding-right: 0%;
+      padding-left: 0%;
       align-items: center center;
       place-items: center center;
   }
