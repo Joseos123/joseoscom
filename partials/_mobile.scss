@@ -22,20 +22,15 @@
     } .buttonbox {
         place-items: center center;
         align-content: center center;
+        width: 100vw;
     } .col {
       flex: 1;
-      padding-top: 1rem;
-      padding-right: 0.7rem;
-      padding-left: 0.7rem;
-  } .colspecial {
-      flex: 1;
-      padding-top: 1rem;
-      padding-right: 0.7rem;
-      padding-left: 0.7rem;
-  } .colspeciall {
-      flex: 1;
-      padding-top: 1rem;
-      padding-right: 5rem;
-      padding-left: 0.7rem;
+      padding-top: 5rem;
+      margin-left: 0%;
+      margin-right: 0%;
+      padding-right: 4vw;
+      padding-left: 4.2vw;
+      align-items: center center;
+      place-items: center center;
   }
       }
