@@ -103,12 +103,14 @@ button {
   }
 
   .a {
+    flex: 1;
     padding-top: 0%;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding-right: 0%;
     padding-left: 0%;
-    padding-right: 1%;
-    width: 100vw;
-    place-self: center center;
-    align-content: center center;
+    align-items: center center;
+    place-items: center center;
   }
 
   .d, .e {
