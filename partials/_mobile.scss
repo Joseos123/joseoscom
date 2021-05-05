@@ -1,41 +1,59 @@
 @media only screen and (max-width: 800px) {
-    body {
+
+  body {
       background-image: url(pp-mobile.jpg);
       padding-left: 0vw;
       padding-right: 0vw;
       padding-top: 0vw;
-    } .a {
+  } 
+    
+  .a {
       flex: 1;
       padding-top: 0%;
       margin-left: 0vw;
-      margin-right: 0vw;
+      margin-right: 0%;
       padding-right: 0%;
       padding-left: 0%;
-      align-items: center center;
+      align-items: center;
       place-items: center center;
-    } .d, .e {
+  } 
+    
+  .d, .e {
       display: none !important;
-    } .f {
+  } 
+    
+  .f {
       place-self: center center;
 
       align-content: center center;
-    } #fortnut {
+  } 
+    
+  #fortnut {
         width: 84vw;
-    } .buttonbox {
+  } 
+    
+  .buttonbox {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         place-items: center center;
         align-content: center center;
         width: 100vw;
-    } .col {
+  } 
+    
+  .col, .bruh {
       flex: 1;
-      padding-top: 0%;
+      padding-top: 10vw;
       margin-left: 0vw;
       margin-right: 0vw;
       padding-right: 0%;
       padding-left: 0%;
       align-items: center center;
       place-items: center center;
+  } 
+  
+  span {
+    font-size: 3rem;
   }
-      }
+
+}

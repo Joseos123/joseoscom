@@ -10,9 +10,10 @@
     place-self: center center;
     padding-top: 6%;
     padding-left: 3.80rem;
-    align-self: center center;
+    align-self: center;
 }
 
 .f {
     place-self: center flex-start;
+    align-items: center flex-start;
 }

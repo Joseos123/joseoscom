@@ -1,34 +1,29 @@
 .buttonbox {
     display: flex;
+    display: -webkit-flex;
     width: 100%;
     place-items: center flex-start;
     align-content: center flex-start;
     background-color: transparent;
+    padding-right: 10vw;
 }
 
 .col {
     flex: 1;
     padding-top: 6rem;
     padding-right: 3rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 
-.colspecial {
+.bruh {
     flex: 1;
+    padding-right: 3.5rem;
     padding-top: 6rem;
-    padding-right: 3rem;
-    padding-left: 0rem;
-}
-
-.colspeciall {
-    flex: 1;
-    padding-top: 6rem;
-    padding-right: 9rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 
 span {
-    font-size: 3rem; 
+    font-size: 3.5rem; 
     color: white;
     background-color: transparent;
 }
