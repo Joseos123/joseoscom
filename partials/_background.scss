@@ -1,5 +1,5 @@
 body {
-    background-image: url(pp.jpg);    
+    background-image: url('https://source.unsplash.com/Yj1M5riCKk4/3840x3840');    
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,4 +8,5 @@ body {
 
     padding-left: 2vw;
     padding-top: 1vw;
+    padding-bottom: calc(0 - env(safe-area-inset-bottom));
   }
