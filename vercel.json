@@ -1,8 +1,0 @@
-{
-  "redirects": [
-    { "source": "/rickroll", "destination": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
-    { "source": "/github", "destination": "https://github.com/Joseos123" },
-    { "source": "/instagram", "destination": "https://www.instagram.com/joshhhhhhyyyyyy/" },
-    { "source": "/discord", "destination": "https://discordapp.com/users/142628578331328512/" }
-  ]
-}
